@@ -1,0 +1,31 @@
+.timeText {
+    width: 32px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #000000;
+    flex-grow: 0;
+}
+
+
+
+h3 {
+    width: 20px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+    margin: -4px 0px;
+}
+
+.flexIcon {
+    display: flex;
+    flex-direction: row;
+}
