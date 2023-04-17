@@ -1,0 +1,12 @@
+.Dtable {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    height: 190px;
+    width: 360px;
+    left: 906px;
+    top: 743px;
+    border-radius: 4px;
+    margin-bottom: -5px;
+
+}
