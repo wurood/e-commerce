@@ -1,10 +1,19 @@
-import React from 'react'
-import style from './style.module.css';
+import React from 'react';
+import { Typography, createTheme } from '@mui/material';
 
-function index(props) {
+
+function index({ text }) {
+  const theme = createTheme({
+    TitleTheme: {
+      fontFamily:"Inter",
+      fontSize: 36,
+      fontWeight: 600,
+      letterSpacing: "0.04em",
+    },
+    
+  });
   return (
-    <h1 className={style.text}>{props.text}</h1>
-  )
+    <Typography variant="h5" gutterBottom sx={theme.TitleTheme}> {text} </Typography>
+  );
 }
-
 export default index
