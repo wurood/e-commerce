@@ -1,12 +1,14 @@
 import React, { Component }  from 'react';
 import './App.css';
-import Home from './components/Home/index';
+import NewArrival from './components/NewArrival';
+import Features from './components/Features';
 
 
 function App() {
   return (
     <>
-    <Home text="hello" />
+    <NewArrival />
+    <Features/>
     </>
   );
 }

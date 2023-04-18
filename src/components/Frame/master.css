@@ -1,0 +1,46 @@
+.frame-container{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  justify-content: space-between;
+  margin-top: 8.75em;
+}
+
+.big-circle{
+  width:80px;
+  height:80px;
+  background-color: rgba(47, 46, 48, 0.3);
+  border-radius: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin: auto;
+}
+.small-circle{
+  width:58px;
+  height:58px;
+  background-color: #000000;
+  border-radius: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon{
+  margin: auto;
+}
+
+.frame-container h4{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 1.2em 0 0.4em 0;
+}
+
+.frame-container p{
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  margin: 0;
+}
