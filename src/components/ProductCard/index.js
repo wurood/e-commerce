@@ -85,7 +85,7 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
   return (
       <Card sx={theme.CardTheme} >
         <Container sx={theme.ContainerTheme} onMouseEnter={() => setShowBtn(true)} onMouseLeave={() => setShowBtn(false)}>
-        {Discount && <Box sx={theme.DiscountTheme}>- {Math.floor(Math.random() * 71)}%</Box>}
+        {Discount && <Box sx={theme.DiscountTheme}>- 40%</Box>}
           <Box sx={theme.IconsTheme}>
             <Box sx={{ marginY: 0.5 }}>
               <Avatar sx={{ backgroundColor: "#FFFFFF"}}>
