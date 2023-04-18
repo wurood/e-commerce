@@ -14,6 +14,6 @@ function index({ text }) {
   });
   return (
     <Typography variant="h5" gutterBottom sx={theme.TitleTheme}> {text} </Typography>
-  );
+  )
 }
 export default index

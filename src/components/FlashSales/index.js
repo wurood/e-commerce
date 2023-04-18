@@ -29,14 +29,6 @@ function FlashSales() {
             infinite: true,
           }
         },
-        {
-          breakpoint: 700,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1
-          }
-        },
       ]
   };
    const theme = createTheme({

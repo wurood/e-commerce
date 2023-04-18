@@ -17,7 +17,17 @@ function Explore() {
       infinite: true,
       slidesToShow: 4,
       slidesToScroll: 4,
-      rows: 2,
+       rows: 2,
+      responsive: [
+        {
+          breakpoint: 1042,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            rows: 2,
+            infinite: true,
+          }
+        },]
   };
   const theme = createTheme({
      TitleTheme: {

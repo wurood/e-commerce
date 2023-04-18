@@ -15,8 +15,6 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
     height: 350,
   },
    CountTheme: {
-      display: "flex",
-      alignItems: "center",
       opacity: 0.5,
       fontFamily: "Poppins",
       fontSize:12,
@@ -133,7 +131,7 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
             </Box>   
           </Box>
           <Box sx={theme.flexDiv}>
-            <Rating name="read-only" value={rating.rate} readOnly />
+            <Rating name="read-only" value={rating.rate} readOnly  size="small"/>
             <Box sx={theme.CountTheme}>({rating.count})</Box>
           </Box></>) }
         </CardContent>

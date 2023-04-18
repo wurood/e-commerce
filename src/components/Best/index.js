@@ -1,4 +1,4 @@
-import {Box } from "@mui/material";
+import {Box , Grid} from "@mui/material";
 import React from "react";
 import { data } from '../../data';
 import ProductCard from "../ProductCard";
@@ -11,7 +11,7 @@ const Best = () => {
     BoxTheme: {
       display: "flex",
       justifyContent: "space-between",
-      marginBottom:5,
+      marginBottom:3,
     },
   });
   return (
@@ -21,11 +21,10 @@ const Best = () => {
       <SubTittle text="Best Selling product"/>
         <Buttons Color="pink" Text="View All" />
       </Box>
-      <Box sx={theme.BoxTheme}>
-        {data.map((product, index) =>index < 4 && (<Box key={product.id}><ProductCard{...product} /></Box>))}
-      </Box>
+      <Grid container>
+        {data.map((product, index) =>index < 4 && (<Grid key={product.id} item xs={12} sm={6} md={3}> <ProductCard {...product} /> </Grid>))}
+      </Grid>
    </>
   );
 };
-
 export default Best;
