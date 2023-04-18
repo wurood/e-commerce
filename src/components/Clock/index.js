@@ -18,12 +18,6 @@ let counter = setInterval(() => {
   }
 }, 1000);
     return (
-        // <ul>
-        //    <p>Days</p><li>{days < 10 ? `0${days}` : days}</li>
-        //    <p>Days</p><li>{hours < 10 ? `0${hours}` : hours}</li>
-        //    <p>Days</p><li>{minutes < 10 ? `0${minutes}` : minutes}</li>
-        //    <p>Days</p><li>{seconds < 10 ? `0${seconds}` : seconds}</li>
-        // </ul>
         <div className={style.flexDiv}>
             <div className={style.container}>
                 <p className={style.type}>Days</p>
