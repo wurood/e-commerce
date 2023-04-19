@@ -1,0 +1,12 @@
+.css-1oqqzyl-MuiContainer-root {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+@media (min-width: 1200px){
+
+.css-1oqqzyl-MuiContainer-root {
+    max-width: 100% !important;
+}
+}

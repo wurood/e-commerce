@@ -1,0 +1,22 @@
+.wrapper {
+    width: 100%;
+    height: 524px;
+}
+.divider {
+    height: 355px;
+    position: absolute;
+    left: 300px;
+    top: 142px;
+    opacity : 0.3;
+    border: 0.5px solid #000000;
+
+}
+
+
+
+@media only screen and (max-width: 895px) {
+    .divider{
+        top:195px
+    }
+  
+  }

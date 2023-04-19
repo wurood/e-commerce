@@ -3,7 +3,7 @@ import style from './style.module.css';
 
 function index(props) {
   return (
-    <h1 className={style.text}>{props.text}</h1>
+    <p style={{color: props.color}}  >{props.text}</p>
   )
 }
 

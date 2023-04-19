@@ -1,13 +1,10 @@
-import React, { Component }  from 'react';
 import './App.css';
-import Home from './components/Home/index';
-
+import React from 'react'
+import Home from './components/Home/index'
 
 function App() {
   return (
-    <>
-    <Home text="hello" />
-    </>
+   <Home />
   );
 }
 
