@@ -1,0 +1,26 @@
+.categories {
+    position: relative;
+    left: 0;
+    top:40px;
+    width: 22%;
+    /* border-right: 10px solid black;    */
+}
+
+
+.categories ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:16px;
+  }
+  
+  .categories ul li {
+    padding-left: 38px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    text-align: center;
+    align-items: center;
+  }
