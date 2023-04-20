@@ -1,5 +1,5 @@
 import React from 'react'
-import path from '../../assets/perfume.png'
+// import path from '../../Assets/perfume.png'
 import './master.css'
 function Card({img,title,desc}) {
   return (

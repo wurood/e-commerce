@@ -15,7 +15,6 @@ const Router = () => {
                 <Route path="*" element={<>4040page not found</>} />
             </Routes>
         </BrowserRouter>
-
     )
 }
 

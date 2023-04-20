@@ -3,13 +3,13 @@ import style from './style.module.css';
 import NavTittle from '../../NavTittle/index';
 import Paragraph from '../../Paragraph/index';
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
-import DownloadAppStore from '../../../assets/download-appstore.png';
-import downloadGoogle from '../../../assets/download-google.png';
-import QrCode from '../../../assets/Qrcode.png';
-import FacebookIcon from '../../../assets/facebook-icon.png';
-import twitterIcon from '../../../assets/twitter-icon.png';
-import InstagramIcon from '../../../assets/instgram_icon.png';
-import LinkedInIcon from '../../../assets/linkedin-icon.png';
+import DownloadAppStore from '../../../Assets/download-appstore.png';
+import downloadGoogle from '../../../Assets/download-google.png';
+import QrCode from '../../../Assets/Qrcode.png';
+import FacebookIcon from '../../../Assets/facebook-icon.png';
+import twitterIcon from '../../../Assets/twitter-icon.png';
+import InstagramIcon from '../../../Assets/instgram_icon.png';
+import LinkedInIcon from '../../../Assets/linkedin-icon.png';
 
 
 function index() {

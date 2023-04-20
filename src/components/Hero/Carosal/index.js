@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import AppleIcon from '@mui/icons-material/Apple';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import img from '../../../assets/slider_img.jpg'
+import img from '../../../Assets/slider_img.jpg'
 import './style.css';
 
 function index() {
