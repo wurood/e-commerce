@@ -1,6 +1,6 @@
 import * as React from 'react';
 import style from './style.module.css';
-import Tittle from '../../Tittle/index';
+import NavTittle from '../../NavTittle/index';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -186,7 +186,7 @@ export default function SubHeader() {
             noWrap
             component="div"
           >
-          <Tittle text="Exclusive" className={style.title} />	
+          <NavTittle text="Exclusive" className={style.title} />	
           </Typography>
 
           <Box  sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } , gap:'26px',justifyContent: 'flex-end',position:'relative',left:'50px'}}>	

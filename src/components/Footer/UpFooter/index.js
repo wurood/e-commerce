@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './style.module.css';
-import Tittle from '../../Tittle/index';
+import NavTittle from '../../NavTittle/index';
 import Paragraph from '../../Paragraph/index';
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import DownloadAppStore from '../../../assets/download-appstore.png';
@@ -17,20 +17,20 @@ function index() {
     <div className={style.wrapper}>
         <div className={style.content}>
                     <div className={style.card}>
-                       <Tittle text="Exclusive"  color="white"/>	
+                       <NavTittle text="Exclusive"  color="white"/>	
                         <p className={style.subTitle}>Subscribe</p>
                         <Paragraph text="Get 10% off your first order"  color="white"/>	
                         <div className={style.email}><span>Enter your email</span><KeyboardArrowRightOutlinedIcon /></div>
                     </div>
                     <div className={style.card}>
-                       <Tittle text="Support"  color="white"/>	
+                       <NavTittle text="Support"  color="white"/>	
                         <Paragraph text="111 Bijoy sarani, Dhaka,DH 1515, Bangladesh."  color="white"/>
                         <Paragraph text="exclusive@gmail.com"  color="white"/>	
                         <Paragraph text="+88015-88888-9999"  color="white"/>		
                     </div>
 
                     <div className={style.card}>
-                       <Tittle text="Account"  color="white"/>	
+                       <NavTittle text="Account"  color="white"/>	
                         <Paragraph text="My Account"  color="white"/>
                         <Paragraph text="Login / Register"  color="white"/> 
                         <Paragraph text="Cart"  color="white"/>	
@@ -38,7 +38,7 @@ function index() {
                         <Paragraph text="Shop"  color="white"/>		
                     </div>
                     <div className={style.card}>
-                       <Tittle text="Quick Link"  color="white"/>	
+                       <NavTittle text="Quick Link"  color="white"/>	
                         <Paragraph text="Privacy Policy"  color="white"/>
                         <Paragraph text="Terms Of Use"  color="white"/> 
                         <Paragraph text="FAQ"  color="white"/>	
@@ -46,7 +46,7 @@ function index() {
                     </div>
 
                     <div className={style.card}>
-                       <Tittle text="Download App"  color="white"/>	
+                       <NavTittle text="Download App"  color="white"/>	
                         <p className={style.DownloadApp}>Save $3 with App New User Only</p>
                         <div className={style.imgGrid}>
                             <img className={style.QR} src={QrCode} />
