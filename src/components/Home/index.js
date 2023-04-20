@@ -10,6 +10,7 @@ import './style.css';
 
 function index() {
   return (
+
     <>
      <CssBaseline/>
      <Container maxWidth="lg" >
@@ -27,6 +28,7 @@ function index() {
    
   {/* <ColorsButton /> */}
     </>
+
   )
 }
 
