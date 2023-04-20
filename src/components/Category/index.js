@@ -1,6 +1,6 @@
 import React from 'react'
-import Tittle from './../Tittle/index'
-import SubTittle from './../SubTittle/index'
+import Tittle from '../Tittle'
+import SubTittle from './../SubTittle'
 import CategoryItem from '../CategoryItem'
 function Category() {
     return (

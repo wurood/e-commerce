@@ -1,19 +1,30 @@
-import React from 'react';
-import { Typography, createTheme } from '@mui/material';
-
-
-function index({ text }) {
+import React from "react";
+import { Box, createTheme , Typography} from "@mui/material";
+const SubTittle = ({text}) => {
   const theme = createTheme({
-    TitleTheme: {
-      fontFamily:"Inter",
-      fontSize: 36,
-      fontWeight: 600,
-      letterSpacing: "0.04em",
+    TitleTagTheme: {
+      width: "20px",
+      height: "40px",
+      backgroundColor: "#DB4444",
+      borderRadius: "4px",
+       marginBottom:2,
     },
-    
+    TitleTheme: {
+      color: "#DB4444",
+      width:100,
+      mt:5,
+      paddingTop: 1,
+      marginLeft: "50px",
+    },
   });
   return (
-    <Typography variant="h5" gutterBottom sx={theme.TitleTheme}> {text} </Typography>
-  )
-}
-export default index
+    <>
+      <Box sx={theme.TitleTagTheme}>
+        <Typography variant="caption" display="block" gutterBottom sx={theme.TitleTheme}> {text} </Typography>
+      </Box>
+    </>
+  );
+};
+
+
+export default SubTittle;

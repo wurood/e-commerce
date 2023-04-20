@@ -8,6 +8,7 @@ import Explore from './components/Explore';
 import NewArrival from './components/NewArrival';
 import Features from './components/Features';
 import Router from './Route';
+import Category from "./components/Category";
 
 
 function App() {
@@ -15,13 +16,11 @@ function App() {
     <div className='App'>
       <Home />
       <FlashSales />
+      <Category />
       <Best />
       <Explore />
       <NewArrival />
       <Features />
-      {/* <ItemViewer/> */}
-       <Router />
-
     </div>
   );
 }
