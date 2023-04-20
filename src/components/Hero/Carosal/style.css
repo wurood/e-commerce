@@ -1,0 +1,62 @@
+.main_slider {
+    position: absolute;
+    top: 180px;
+    left: 210px;
+}
+
+.carousel .slider-wrapper {
+    width: 75% ;
+}
+
+.carousel .thumb {
+    display: none; 
+}
+
+.legend {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: none !important;
+    opacity: 1  !important;
+}
+.first-paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.second-paragraph {
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: 0.04em;
+color: #FAFAFA;
+text-align: left;
+
+}
+
+.third-paragraph {
+position: relative;
+top:5px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.third-paragraph  span{
+    border-bottom: 1px solid #FAFAFA;
+}
+
+
+@media only screen and (max-width: 895px) {
+    .main_slider{
+        top:230px;
+        left: 270px;
+    }
+  
+    .second-paragraph { 
+        font-size: 20px;
+    }
+  }

@@ -26,4 +26,5 @@ const Tittle = ({text}) => {
   );
 };
 
+
 export default Tittle;
