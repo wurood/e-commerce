@@ -1,5 +1,5 @@
 .speaker {
-    width: 1170px;
+    width: 90%;
     height: 500px;
     /*margin-top: 2526px;
     margin-left: 135px;*/
@@ -8,7 +8,7 @@
 }
 
 .categoryText {
-    position: absolute;
+    position: relative;
     width: 90px;
     left: 56px;
     top: 69px;
@@ -21,11 +21,11 @@
 }
 
 .speakerText {
-    position: absolute;
+    position: relative;
     width: 443px;
     height: 120px;
     left: 56px;
-    top: 121px;
+    top: 70px;
     margin-top: 32px;
     /* margin-left: 56px;*/
     font-family: 'Inter';
@@ -41,16 +41,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .speakerIcon {
-    position: absolute;
-    margin-top: 273px;
+    position: relative;
+    margin-top: 100px;
     margin-left: 56px;
 }
 
 .speakerButton {
-    margin-top: 375px;
+    margin-top: 60px;
     margin-left: 56px;
-    margin-bottom: 69px;
 }
