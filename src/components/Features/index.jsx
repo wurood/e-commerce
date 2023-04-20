@@ -10,7 +10,6 @@ function Features() {
           <Frame icon = {e.icon} feature={e.feature} desc={e.describtion}/>
         )
       }
-
     </div>
   )
 }

@@ -7,7 +7,8 @@ const SubTittle = ({text}) => {
       height: "40px",
       backgroundColor: "#DB4444",
       borderRadius: "4px",
-       marginBottom:2,
+      marginTop: "90px",
+      marginBottom: 2,
     },
     TitleTheme: {
       color: "#DB4444",

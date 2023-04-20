@@ -28,6 +28,7 @@ function index() {
           <FlashSales />
           <Category />
           <Best />
+          <br/><br/><br/>
           <Speaker />
           <Explore />
           <NewArrival />
