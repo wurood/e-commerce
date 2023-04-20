@@ -23,14 +23,13 @@
   background-color: #000000;
   border-radius: 100%;
   margin: auto;
-  text-align: center;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
 .icon{
-  margin: auto;
+  /* margin: auto; */
 }
 
 .frame-container h4{
