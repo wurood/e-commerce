@@ -1,3 +1,4 @@
+import React from "react";
 import Home from './components/Home/index'
 import FlashSales from './components/FlashSales';
 import Best from './components/Best';
@@ -12,8 +13,8 @@ function App() {
       <FlashSales />
       <Best />
       <Explore />
-      <NewArrival/>
-      <Features/>
+      <NewArrival />
+      <Features />
       {/* <ItemViewer/> */}
     </div>
   );
