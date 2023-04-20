@@ -129,10 +129,10 @@
 
    @media only screen and (max-width: 1440px) {
      .content {
-        padding: 30px;
+        padding: 10px;
     } 
     .card {
-        width: 200px !important;
+        width: 160px !important;
     }
   }
 

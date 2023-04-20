@@ -59,7 +59,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 const pages = ['Home', 'Contact', 'About me', 'Sign Up'];	
 
-export default function index() {
+export default function SubHeader() {
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 

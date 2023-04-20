@@ -6,7 +6,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
-export default function index() {
+export default function MainHeader() {
   const [Language, setLanguages] = React.useState('');
 
   const handleChange = (event) => {
