@@ -1,0 +1,21 @@
+.wrapper {
+    position: absolute;
+    top:417px;
+    left:906px;
+    right:145px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.first {
+    display: flex;
+    gap:12px;
+}
+
+span {
+font-style: Poppins;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+}

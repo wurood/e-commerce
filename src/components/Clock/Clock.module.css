@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    right: 198px;
+}
+.number {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+.type {
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+    top:50px;
+}
+.separator {
+    color: #E07575;
+    /* margin-top: 1.7em; */
+    height: 16px;
+    width: 4px;
+    left: 361px;
+    top: 79px;
+    border-radius: 0px;
+}
+.flexDiv{
+    display: flex;
+}

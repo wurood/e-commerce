@@ -1,0 +1,7 @@
+.viewer-chunck{
+  background-color: #F5F5F5;
+  height: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
