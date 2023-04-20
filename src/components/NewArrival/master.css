@@ -1,8 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
-
 .new-arrival-container{
-  width: 1170px;
+  max-width: 1170px;
   color: #FAFAFA;
   font-family: 'Poppins', sans-serif;
 
@@ -22,9 +19,12 @@
   height: 600px;
 }
 
+
 .inner-card-container{
   grid-template-rows: 100%
 }
+
+img {max-width: 100%;}
 
 /* cards' design */
 .skeleton-container > .card .info-container{
@@ -39,6 +39,7 @@
 .skeleton-container > .card:first-child img{
   bottom: 0;
   left: 1.8125em;
+  max-width: 100%;
 }
 
 .skeleton-container > .card:first-child .info-container{

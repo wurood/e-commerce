@@ -1,7 +1,11 @@
 .features-section{
   display: flex;
   justify-content: space-between;
-  /* width: 63%; */
-  /* FIXME: */
-  margin: auto;
 }
+
+@media screen and (max-width:787px) {
+  .features-section{
+    flex-direction: column;
+  }
+}
+

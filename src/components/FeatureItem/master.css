@@ -1,4 +1,4 @@
-.frame-container{
+.feature-item-container{
   text-align: center;
   font-family: 'Poppins', sans-serif;
   justify-content: space-between;
@@ -28,18 +28,18 @@
   justify-content: center;
 }
 
-.icon{
-  /* margin: auto; */
-}
 
-.frame-container h4{
+.feature-item-container h3{
   font-size: 1.25rem;
   line-height: 1.75rem;
   margin: 1.2em 0 0.4em 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
-.frame-container p{
+.feature-item-container p{
   font-size: 0.875rem;
   line-height: 1.3125rem;
   margin: 0;
+  color: #000000;
 }

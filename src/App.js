@@ -20,7 +20,7 @@ function App() {
       <NewArrival />
       <Features />
       {/* <ItemViewer/> */}
-       <Router />
+      <Router />
 
     </div>
   );

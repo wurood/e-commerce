@@ -16,6 +16,7 @@
   margin-bottom: 0.6667em;
   font-weight: 600;
   line-height: 1em;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card p{
@@ -35,4 +36,6 @@
   position: absolute;
   bottom: 1.5em;
   left: 1.5em;
+  border-bottom: solid #FAFAFA 1px;
+  padding: 0.3em 0;
 }

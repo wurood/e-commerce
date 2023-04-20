@@ -1,15 +1,19 @@
 import React from 'react'
-// import path from '../../Assets/perfume.png'
+import {Link, Typography} from '@mui/material';
 import './master.css'
 function Card({img,title,desc}) {
   return (
     <div  className='card'>
       <img src={img} alt={title}/>
       <div className='info-container'>
-        <h3>{title}</h3>
+        <Typography variant="h3">
+          {title}
+        </Typography>
+
         <p>{desc}</p>
+
       </div>
-      <a href="#">Shop now</a>
+      <Link href="#" underline="none">Shop now</Link>
     </div>
   )
 }
