@@ -1,10 +1,22 @@
 import React from 'react'
+import { createTheme } from "@mui/material/styles";
+import { Box, Avatar } from "@mui/material";
+import ItemViewer from '../../components/ItemViewer';
+
 
 function ProductDetail() {
+    const theme = createTheme({
+        FlexBoxTheme: {
+            display: "flex",
+            justifyContent: "space-between",
+        },
+    })
     return (
-        <div>
-            <h2>this is the Product Detail page</h2>
-        </div>
+        <>
+            <Box sx={theme.FlexBoxTheme}>
+            <ItemViewer />
+            </Box>
+        </>
     )
 }
 

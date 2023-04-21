@@ -2,8 +2,8 @@ import {Box , Grid} from "@mui/material";
 import React from "react";
 import { data } from '../../data';
 import ProductCard from "../ProductCard";
-import Tittle from '../Tittle';
 import SubTittle from '../SubTittle';
+import Tittle from '../Tittle';
 import Buttons from "../Buttons";
 import { createTheme } from "@mui/material/styles";
 const Best = () => {
@@ -16,9 +16,9 @@ const Best = () => {
   });
   return (
   <>
-      <Tittle text="This Month" />
+      <SubTittle text="This Month" />
       <Box sx={theme.BoxTheme}>
-      <SubTittle text="Best Selling product"/>
+      <Tittle text="Best Selling product"/>
         <Buttons Color="pink" Text="View All" />
       </Box>
       <Grid container>

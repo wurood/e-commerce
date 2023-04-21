@@ -16,10 +16,6 @@ function Layout() {
                     <footer>this the footer</footer></Box>
             </Container>
         </React.Fragment>
-
-
-
-
     )
 }
 

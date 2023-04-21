@@ -1,6 +1,6 @@
 import React from 'react'
-import SubTitle from '../SubTittle/index'
-import Title from '../Tittle/index'
+import SubTitle from '../SubTittle'
+import Title from '../Tittle'
 import Card from '../Card'
 import {newArrivalData} from './data.js'
 import './master.css'

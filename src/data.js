@@ -1,7 +1,7 @@
 export const data = [
     {
         "id": 1,
-        "title": "Fjallraven - Foldsack No. 1 Backpack",
+        "title": "Fjallraven - Foldsack Backpack",
         "price": 109.95,
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "category": "men's clothing",
@@ -91,7 +91,7 @@ export const data = [
     },
     {
         "id": 8,
-        "title": "Pierced Owl Stainless Steel Double",
+        "title": "Pierced Stainless Steel",
         "price": 10.99,
         "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
         "category": "jewelery",
@@ -166,7 +166,7 @@ export const data = [
     },
     {
         "id": 14,
-        "title": "Samsung Curved Gaming Monitor ",
+        "title": "Samsung Gaming Monitor ",
         "price": 999.99,
         "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
         "category": "electronics",

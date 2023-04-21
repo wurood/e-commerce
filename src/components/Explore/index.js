@@ -48,9 +48,9 @@ function Explore() {
   }
     return (
       <>
-        <Tittle text="Our Products" />
+        <SubTittle text="Our Products" />
         <Box sx={theme.TitleTheme}>
-          <SubTittle text="Explore Our Products" />
+          <Tittle text="Explore Our Products" />
           <Box sx={theme.TitleTheme}>
           <Avatar sx={theme.IconBackgroundColor} onClick={() => gotoPrev()}>
               <ArrowBackIcon sx={{ color:"black" }}/>
