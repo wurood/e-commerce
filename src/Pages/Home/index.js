@@ -8,7 +8,6 @@ import ColorsButton from '../../components/ColorButtons/index'
 import FlashSales from '../../components/FlashSales';
 import Best from '../../components/Best';
 import Explore from '../../components/Explore';
-// import ItemViewer from './components/ItemViewer';
 import NewArrival from '../../components/NewArrival';
 import Features from '../../components/Features';
 import Container from '@mui/material/Container';
