@@ -25,7 +25,7 @@ function ProductDetail({ data }) {
             display: "flex",
             justifyContent: "space-around",
             flexDirection: "column",
-            marginRight:"150px",
+            marginRight: "150px",
         },
     })
     return (
@@ -37,6 +37,7 @@ function ProductDetail({ data }) {
                     <ItemViewer />
                     <Box sx={theme.FlexBoxTwoTheme}>
                         <ProductInfo {...dataId} />
+                        <br/>
                         <ColorButtons />
                         <Delivery />
                     </Box>
