@@ -1,5 +1,5 @@
 import React from 'react'
-import Frame from '../Frame'
+import FeatureItem from '../FeatureItem'
 import { featuresData } from './data';
 import './master.css'
 function Features() {
@@ -7,7 +7,7 @@ function Features() {
     <div className='features-section'>
       {
         featuresData.map((e) =>
-          <Frame icon = {e.icon} feature={e.feature} desc={e.describtion}/>
+          <FeatureItem icon = {e.icon} feature={e.feature} desc={e.describtion}/>
         )
       }
     </div>
