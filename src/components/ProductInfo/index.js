@@ -15,7 +15,6 @@ function ProductInfo({ title , rating , price , description }){
       fontSize:12,
       },
       LineTheme: {
-          borderLeft:"0.5px solid black",
           paddingLeft: 1,
           color: "#00FF66",
           height:17,
@@ -39,7 +38,7 @@ function ProductInfo({ title , rating , price , description }){
             <br/>
           <Box sx={theme.RevBoxTheme}>
             <Rating name="read-only" value={rating.rate} readOnly />
-                <Box sx={theme.CountTheme}>({rating.count} Reviewes) </Box>
+                <Box sx={theme.CountTheme}>({rating.count} Reviewes) </Box>|
                 <Typography sx={theme.LineTheme}> In Stock</Typography>    
             </Box>
             <br/>

@@ -5,7 +5,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 import { createTheme } from "@mui/material/styles";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
-const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor }) => {
+const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor ,id }) => {
   const [showBtn, setShowBtn] = useState(false);
   const theme = createTheme({
   CardTheme: {
@@ -82,7 +82,7 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
 });
   return (
       <Card sx={theme.CardTheme} >
-        <Container sx={theme.ContainerTheme} onMouseEnter={() => setShowBtn(true)} onMouseLeave={() => setShowBtn(false)}>
+        <Container sx={theme.ContainerTheme} onMouseEnter={() => setShowBtn(true)} onMouseLeave={() => setShowBtn(false)} >
         {Discount && <Box sx={theme.DiscountTheme}>- 40%</Box>}
           <Box sx={theme.IconsTheme}>
             <Box sx={{ marginY: 0.5 }}>
@@ -101,7 +101,7 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
             sx={{height: 170,width: 150,alignItems: "center", display: "flex",}}
             image={image}
         />
-        {showBtn && <AddToCart />}
+        {showBtn && <AddToCart id={id} />}
       </Container>
         <CardContent sx={{ padding: "16px 0 0 0"}}>
           <Box sx={theme.DescriptionTheme}>
