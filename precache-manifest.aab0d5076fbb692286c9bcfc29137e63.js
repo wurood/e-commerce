@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/e-commerce/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/e-commerce/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/e-commerce/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/e-commerce/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "a226ae686ae9f6176985e611dc24660b",
