@@ -3,15 +3,3 @@
     top:600px;
     width: 100%;
 }
-
-@media only screen and (max-width: 1024px) {
-    .wrapper {
-       top: 850px;
-   } 
- }
-
- @media only screen and (max-width: 768px) {
-    .wrapper {
-       top: 1200px;
-   } 
- }
