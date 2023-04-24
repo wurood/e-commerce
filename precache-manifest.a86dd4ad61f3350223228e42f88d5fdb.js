@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "71a26f91dcf333585e2d",
-    "url": "/e-commerce/static/css/main.57444370.chunk.css"
+    "revision": "bc584807e0390619699d",
+    "url": "/e-commerce/static/css/main.809c5dda.chunk.css"
   },
   {
-    "revision": "71a26f91dcf333585e2d",
-    "url": "/e-commerce/static/js/main.166467c4.chunk.js"
+    "revision": "bc584807e0390619699d",
+    "url": "/e-commerce/static/js/main.2d3e30ab.chunk.js"
   },
   {
     "revision": "22817f9348ff9e2d4f0a",
     "url": "/e-commerce/static/js/runtime~main.d1cf8bd6.js"
   },
   {
-    "revision": "e8876ab3eacf834b7961",
-    "url": "/e-commerce/static/css/2.115463e4.chunk.css"
+    "revision": "37e573c26c1ae7a11964",
+    "url": "/e-commerce/static/css/2.b3dc8a55.chunk.css"
   },
   {
-    "revision": "e8876ab3eacf834b7961",
-    "url": "/e-commerce/static/js/2.c76242a3.chunk.js"
+    "revision": "37e573c26c1ae7a11964",
+    "url": "/e-commerce/static/js/2.9c1fae7c.chunk.js"
   },
   {
     "revision": "6814bd40b52ef750991e",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/e-commerce/static/media/perfume.2df87525.png"
   },
   {
-    "revision": "aad1f0b3ea055976ebe0d325a75c14b9",
+    "revision": "acccb7e30a4e0b25c47ed21acd528f72",
     "url": "/e-commerce/index.html"
   }
 ];
