@@ -10,7 +10,7 @@ function FeatureItem({icon,feature,desc}) {
           {icon}
         </div>
       </div>
-      <Typography variant='h3'>{feature}</Typography>
+      <Typography variant='h3' sx={{width:"400px"}}>{feature}</Typography>
       <p>{desc}</p>
     </div>
     

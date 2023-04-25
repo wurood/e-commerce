@@ -18,6 +18,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';	
 import Button from '@mui/material/Button';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import { Link } from 'react-router-dom';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -104,7 +105,9 @@ export default function SubHeader() {
     >
       {pages.map((page) => (
         <MenuItem key={page} onClick={handleCloseNavMenu}>
-          <Typography textAlign="center" color='black'>{page}</Typography>
+          {page === 'Home' ?  (<Link style={{ textDecoration: "none" }} to={`/`}>
+                 <Typography textAlign="center" color='black'>{page}</Typography>
+            </Link> ) : <Typography textAlign="center" color='black'>{page}</Typography>}
         </MenuItem>
       ))}
     </Menu>
@@ -190,13 +193,13 @@ export default function SubHeader() {
           </Typography>
 
           <Box  sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } , gap:'26px',justifyContent: 'flex-end',position:'relative',left:'50px'}}>	
-            {pages.map((page) => (	
-              <Button	
-                key={page}	
-                sx={{ my: 2, color: 'black', display: 'block' ,padding:'0px', margin:'0px' , fontFamily: 'Poppins',fontSize:'16px',lineHeight:'24px',weight:'400px'}}	
-              >	
+            {pages.map((page) => (<>
+               {page === 'Home' ?  (<Link style={{ textDecoration: "none" }} to={`/`}>
+                <Button	key={page} sx={{ my: 2, color: 'black', display: 'block' ,padding:'0px', margin:'0px' , fontFamily: 'Poppins',fontSize:'16px',lineHeight:'24px',weight:'400px'}}	>	
                 {page}	
-              </Button>	
+              </Button></Link> ) : <Button key={page}	sx={{ my: 2, color: 'black', display: 'block' ,padding:'0px', margin:'0px' , fontFamily: 'Poppins',fontSize:'16px',lineHeight:'24px',weight:'400px'}}	>	
+                {page}	
+              </Button>}</>
             ))}	
           </Box>	      
          
