@@ -12,7 +12,7 @@ import { data } from './data';
 
 function CategoryItem() {
     return (
-        <Stack direction="row" spacing={4} >
+        <Stack direction="row" spacing={12} >
             <Button sx="width:170px; height:145px;border-color:black;color:black;display:flex;flex-direction:column" variant="outlined" startIcon={<PhoneAndroidOutlinedIcon sx=" margin-bottom:20px; width:42px; height:37px;" />}>
                 Phone
             </Button>

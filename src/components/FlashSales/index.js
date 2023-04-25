@@ -50,9 +50,9 @@ function FlashSales() {
   }
     return (
       <>
-        <Tittle text="Today's" />
+        <SubTittle text="Today's" />
         <Box sx={theme.TitleTheme}>
-          <SubTittle text="Flash Sales" />
+          <Tittle text="Flash Sales" />
           <Clock /> 
           <Box sx={theme.TitleTheme}>
           <Avatar sx={theme.IconBackgroundColor} onClick={() => gotoPrev()}>

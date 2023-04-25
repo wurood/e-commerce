@@ -1,28 +1,19 @@
-
 import React from "react";
-import Home from './components/Home/index'
-import FlashSales from './components/FlashSales';
-import Best from './components/Best';
-import Explore from './components/Explore';
-// import ItemViewer from './components/ItemViewer';
-import NewArrival from './components/NewArrival';
-import Features from './components/Features';
-import Router from './Route';
-
-
+import Home from './Pages/Home/index'
+import ProductDetail from './Pages/ProductDetail'
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { data } from "./data";
 function App() {
   return (
-    <div className='App'>
-      <Home />
-      <FlashSales />
-      <Best />
-      <Explore />
-      <NewArrival />
-      <Features />
-      {/* <ItemViewer/> */}
-      <Router />
-
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route index path="/" element={<Home />} />
+          <Route path="/product/:productId" element={<ProductDetail data={data} />} />
+          <Route path="*" element={<>4040page not found</>} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 export default App;

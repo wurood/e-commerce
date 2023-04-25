@@ -15,6 +15,7 @@ export default function Delivery() {
                 width: '100%',
                 maxWidth: 360,
                 bgcolor: 'background.paper',
+                border: '2px solid #7D8184',
             }
             }
         >
