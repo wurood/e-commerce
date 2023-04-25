@@ -3,6 +3,7 @@ import SubTitle from '../SubTittle'
 import Title from '../Tittle'
 import Card from '../Card'
 import {newArrivalData} from './data.js'
+import { Grid } from '@mui/material'
 import './master.css'
 
 function NewArrival() {
@@ -10,6 +11,7 @@ function NewArrival() {
     <div className='new-arrival-container'>
       <SubTitle text="Featured"/>
       <Title text="New Arrival"/>
+      
       <div className='skeleton-container'>
         {
           newArrivalData[0].map((item)=>
@@ -24,8 +26,8 @@ function NewArrival() {
           )
           }
         </div>
-        
       </div>
+
     </div>
   )
 }

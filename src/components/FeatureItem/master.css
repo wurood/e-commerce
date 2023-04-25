@@ -2,7 +2,6 @@
   text-align: center;
   font-family: 'Poppins', sans-serif;
   justify-content: space-between;
-  margin-top: 8.75em;
 }
 
 .big-circle{
@@ -35,6 +34,8 @@
   margin: 1.2em 0 0.4em 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
+  width: auto;
+  height: auto;
 }
 
 .feature-item-container p{
@@ -44,3 +45,4 @@
   margin: 0;
   color: #000000;
 }
+
