@@ -8,7 +8,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route index path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/product/:productId" element={<ProductDetail data={data} />} />
           <Route path="*" element={<>4040page not found</>} />
         </Routes>

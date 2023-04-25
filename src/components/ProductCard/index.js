@@ -1,5 +1,5 @@
 import React , {useState} from "react";
-import { CardMedia, Avatar, Card, Box, Rating, CardContent, Container , Button ,Stack } from "@mui/material";
+import { CardMedia,Typography, Avatar, Card, Box, Rating, CardContent , Button ,Stack } from "@mui/material";
 import AddToCart from '../AddToCart';
 import CircleIcon from '@mui/icons-material/Circle';
 import { createTheme } from "@mui/material/styles";
@@ -82,10 +82,10 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
 });
   return (
       <Card sx={theme.CardTheme} >
-        <Container sx={theme.ContainerTheme} onMouseEnter={() => setShowBtn(true)} onMouseLeave={() => setShowBtn(false)} >
+        <Box sx={theme.ContainerTheme} onMouseEnter={() => setShowBtn(true)} onMouseLeave={() => setShowBtn(false)} >
         {Discount && <Box sx={theme.DiscountTheme}>- 40%</Box>}
           <Box sx={theme.IconsTheme}>
-            <Box sx={{ marginY: 0.5 }}>
+            <Box>
               <Avatar sx={{ backgroundColor: "#FFFFFF"}}>
                 <FavoriteBorderIcon style={{ color: "black" }} />
               </Avatar>
@@ -102,17 +102,17 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
             image={image}
         />
         {showBtn && <AddToCart id={id} />}
-      </Container>
+      </Box>
         <CardContent sx={{ padding: "16px 0 0 0"}}>
-          <Box sx={theme.DescriptionTheme}>
+          <Typography variant="h6" sx={theme.DescriptionTheme}>
             {title}
-        </Box>
+        </Typography>
         {ExpComp ? (
         <>
           <Box sx={theme.flexDiv}>
-            <Box sx={theme.AfterDiscountTheme}>
+            <Typography sx={theme.AfterDiscountTheme}>
               ${price}
-            </Box>
+            </Typography>
               <Rating name="read-only" value={rating.rate} sx={{ paddingLeft: 1  }}  size="small" readOnly />
             <Box sx={theme.CountTheme}>({rating.count})</Box>
             </Box>
@@ -123,9 +123,9 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
               </Stack>)}
           </>) : (<>
           <Box sx={theme.flexDiv}>
-            <Box sx={theme.AfterDiscountTheme}>
+            <Typography sx={theme.AfterDiscountTheme}>
               ${price}
-            </Box>
+            </Typography>
             <Box sx={theme.BeforeDiscountTheme}>
               $160
             </Box>   
