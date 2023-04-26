@@ -53,11 +53,11 @@ You may also see any lint errors in the console.
 
 | Name             |                                                              |
 | ----------------- | ------------------------------------------------------------------ |
-|Wurood| Header , Hero and Footer sections / color,size and all buttons in product detail page / group leader |
-|Salsabeel |Flash-Sales , Best Selling and Explore sections / product-info section in product page / make the Home and product detail pages |
-|Haya |New Arrival and features sections / image section in product detail page |
-|Mohammad|Browse By Category and Speaker sections / Delivery section in product detail page |
+|Wurood| Header , Hero and Footer sections [Home page] / color,size and all buttons [product detail page] / group leader |
+|Salsabeel |Flash-Sales , Best Selling and Explore sections [Home page]/ product-info section [product detail page] / make the Home and Product detail pages |
+|Haya |New Arrival and features sections [Home page] / images section [product detail page] |
+|Mohammad|Browse By Category and Speaker sections [Home page] / Delivery section [product detail page] |
 
 ## Authors
 
-- [salsabeel alzaqa](https://www.github.com/salsabeel-alzaqa) , [wurood jibreel](https://github.com/wurood) , [Mohammad Ghawadrah](https://github.com/MohammadGhawadrah) , [Haya AbuRaed](https://github.com/HayaAbuRaed)
+- [Salsabeel alzaqa](https://www.github.com/salsabeel-alzaqa) , [Wurood jibreel](https://github.com/wurood) , [Mohammad Ghawadrah](https://github.com/MohammadGhawadrah) , [Haya AbuRaed](https://github.com/HayaAbuRaed)
