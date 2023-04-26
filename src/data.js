@@ -21,7 +21,8 @@ export const data = [
         "rating": {
             "rate": 4.1,
             "count": 259
-        }
+        },
+        "ExpDis":"30%",
     },
     {
         "id": 3,
@@ -43,7 +44,8 @@ export const data = [
         "rating": {
             "rate": 2.1,
             "count": 430
-        }
+        },
+        "ExpDis":"50%",
     },
     {
         "id": 5,
@@ -75,7 +77,8 @@ export const data = [
         "Itemcolor": {
             "first": "red",
             "second":"black"
-        }
+        },
+        "ExpDis":"60%",
     },
     {
         "id": 7,
@@ -103,7 +106,8 @@ export const data = [
         "Itemcolor": {
             "first": "red",
             "second":"black"
-        }
+        },
+        "ExpDis": "30%",
     },
     {
         "id": 9,

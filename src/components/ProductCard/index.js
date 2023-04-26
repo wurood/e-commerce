@@ -5,7 +5,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 import { createTheme } from "@mui/material/styles";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
-const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor ,id }) => {
+const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor ,id,ExpDis }) => {
   const [showBtn, setShowBtn] = useState(false);
   const theme = createTheme({
   CardTheme: {
@@ -84,8 +84,9 @@ const ProductCard = ({ image, title, rating, price, Discount ,ExpComp, Itemcolor
       <Card sx={theme.CardTheme} >
         <Box sx={theme.ContainerTheme} onMouseEnter={() => setShowBtn(true)} onMouseLeave={() => setShowBtn(false)} >
         {Discount && <Box sx={theme.DiscountTheme}>- 40%</Box>}
+        {ExpComp ? (ExpDis && (<Box sx={theme.DiscountTheme}>- {ExpDis}</Box>)):null}
           <Box sx={theme.IconsTheme}>
-            <Box>
+            <Box sx={{my:1}}>
               <Avatar sx={{ backgroundColor: "#FFFFFF"}}>
                 <FavoriteBorderIcon style={{ color: "black" }} />
               </Avatar>
