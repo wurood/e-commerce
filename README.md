@@ -51,7 +51,7 @@ You may also see any lint errors in the console.
 
 ## Team Members & their Work
 
-| Name             | Work At                                                                |
+| Name             |                                                              |
 | ----------------- | ------------------------------------------------------------------ |
 |Wurood| Header , Hero and Footer sections / color,size and all buttons in product detail page / group leader |
 |Salsabeel |Flash-Sales , Best Selling and Explore sections / product-info section in product page / make the Home and product detail pages |
