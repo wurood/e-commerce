@@ -1,10 +1,6 @@
 import React from 'react'
 import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
-import Header from '../../components/Header/index' 
 import Hero from '../../components/Hero/index'
-import Footer from '../../components/Footer/index'
-import ColorsButton from '../../components/ColorButtons/index'
 import FlashSales from '../../components/FlashSales';
 import Best from '../../components/Best';
 import Explore from '../../components/Explore';
@@ -21,7 +17,6 @@ function index() {
     <>
       <CssBaseline />
       <Container maxWidth="lg" >
-        <Header />
         <Hero />
         <Container sx={{ maxWidth:'95%'  }} maxWidth={false} >
           <FlashSales />
@@ -33,7 +28,6 @@ function index() {
           <NewArrival />
           <Features />
         </Container>
-        <Footer />
       </Container>
     </>
   )

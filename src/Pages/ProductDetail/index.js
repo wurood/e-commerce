@@ -3,10 +3,8 @@ import { createTheme } from "@mui/material/styles";
 import { Box, Grid ,Container,Typography} from "@mui/material";
 import ItemViewer from '../../components/ItemViewer';
 import ProductInfo from '../../components/ProductInfo';
-import Header from '../../components/Header';
 import ColorButtons from '../../components/ColorButtons';
 import Delivery from '../../components/Delivery';
-import Footer from '../../components/Footer';
 import { useParams } from "react-router-dom";
 import SubTittle from '../../components/SubTittle';
 import ProductCard from '../../components/ProductCard';
@@ -31,7 +29,6 @@ function ProductDetail({ data }) {
     return (
         <>
             <Container maxWidth="lg">
-                <Header />
                 <Typography variant="h6" sx={{ color: "#7D8184", margin: "20px" }}>Account / Gaming /  {title} </Typography>
                 <Box sx={theme.FlexBoxTheme}>
                     <ItemViewer />
@@ -49,7 +46,6 @@ function ProductDetail({ data }) {
                         {data.map((product, index) => index < 4 && (<Grid key={product.id} item xs={12} sm={6} md={3}> <ProductCard {...product} /> </Grid>))}
                     </Grid>
                 </Container>
-                <Footer />
             </Container>
         </>
     )
